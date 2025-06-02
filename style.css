@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: #333;
+    margin: 0;
+    padding: 0; 
+    line-height: 1.6;
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 0; 
+    padding-top: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin: 0; 
+    padding-bottom: 10px; 
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    object-fit: contain;
+    border: 0px solid darkblue;
+    padding: 1px;
+    margin-top: 1; 
+    margin-bottom: 1;
+    display: block;
+}
+
+.profile-intro-text,
+.contact-form-section,
+.greeting-section {
+    padding: 0; 
+    margin-bottom: 0; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profile-intro-text p {
+    margin: 0; 
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+.greeting-section {
+    padding: 10px 20px; 
+    text-align: center; 
+}
+
+.contact-form-section {
+    padding: 10px 20px; 
+    text-align: left; 
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 15px; 
+    text-align: left; 
+}
+
+.form-group {
+    margin-bottom: 10px; 
+    text-align: left; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 80%; 
+    padding: 8px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    max-width: 400px;
+    display: block;
+    margin-left: 0; 
+    margin-right: auto;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 80px; 
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+    margin: 15px auto 0 auto;
+}
+
+
+.contact-form-section button[type="submit"] {
+    display: block; 
+    margin-left: 0; 
+    margin-right: auto;
+    margin-top: 20px; 
+}
+
+.greeting-section button {
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.highlight {
+    font-weight: bold;
+    color: green;
+}
